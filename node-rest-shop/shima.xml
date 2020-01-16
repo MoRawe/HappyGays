@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<message>
+    <country name="Italy">
+        <Freedom Freedom="132" />
+        <total_litres_of_pure_alcohol Alcohol="6.5"/>
+        <N LGBT="23897"/>
+    </country>
+    <country name="Austria">
+        <Freedom Freedom="26"/>
+        <total_litres_of_pure_alcohol Alcohol="9.7"/>
+        <N LGBT="2543"/>
+    </country>
+    <country name="Poland">
+        <Freedom Freedom="52"/>
+        <total_litres_of_pure_alcohol Alcohol="10.9"/>
+        <N LGBT="2790"/>
+    </country>
+    <country name="Belgium">
+        <Freedom Freedom="53"/>
+        <total_litres_of_pure_alcohol Alcohol="10.5"/>
+        <N LGBT="2901"/>
+    </country>
+    <country name="Ireland">
+        <Freedom Freedom="33"/>
+        <total_litres_of_pure_alcohol Alcohol="11.4"/>
+        <N LGBT="1625"/>
+    </country>
+     <country name="France">
+        <Freedom Freedom="69"/>
+        <total_litres_of_pure_alcohol Alcohol="11.8"/>
+        <N LGBT="8375"/>
+    </country>
+    <country name="Germany">
+        <Freedom Freedom="44"/>
+        <total_litres_of_pure_alcohol Alcohol="11.3"/>
+        <N LGBT="20271"/>
+    </country>
+    <country name="Spain">
+        <Freedom Freedom="95"/>
+        <total_litres_of_pure_alcohol Alcohol="10"/>
+        <N LGBT="6388"/>
+    </country>
+    <country name="United Kingdom">
+        <Freedom Freedom="63"/>
+        <total_litres_of_pure_alcohol Alcohol="10.4"/>
+        <N LGBT="6759"/>
+    </country>
+    <country name="Greece">
+        <Freedom Freedom="150"/>
+        <total_litres_of_pure_alcohol Alcohol="8.3"/>
+        <N LGBT="2760"/>
+    </country>
+    <country name="Sweden">
+        <Freedom Freedom="10"/>
+        <total_litres_of_pure_alcohol Alcohol="7.2"/>
+        <N LGBT="2464"/>
+    </country>
+     <country name="Hungary">
+        <Freedom Freedom="138"/>
+        <total_litres_of_pure_alcohol Alcohol="11.3"/>
+        <N LGBT="2267"/>
+    </country>
+     <country name="Romania">
+        <Freedom Freedom="57"/>
+        <total_litres_of_pure_alcohol Alcohol="10.4"/>
+        <N LGBT="1260"/>
+    </country>
+    <country name="Finland">
+        <Freedom Freedom="5"/>
+        <total_litres_of_pure_alcohol Alcohol="10"/>
+        <N LGBT="3439"/>
+    </country>
+    <country name="Netherlands">
+        <Freedom Freedom="19"/>
+        <total_litres_of_pure_alcohol Alcohol="9.4"/>
+        <N LGBT="3175"/>
+    </country>
+    <country name="Portugal">
+        <Freedom Freedom="37"/>
+        <total_litres_of_pure_alcohol Alcohol="11"/>
+        <N LGBT="2125"/>
+    </country>
+    <country name="Czech Republic">
+        <Freedom Freedom="58"/>
+        <total_litres_of_pure_alcohol Alcohol="11.8"/>
+        <N LGBT="2469"/>
+    </country>
+    <country name="Denmark">
+        <Freedom Freedom="6"/>
+        <total_litres_of_pure_alcohol Alcohol="10.4"/>
+        <N LGBT="1710"/>
+    </country>
+    <country name="Bulgaria">
+        <Freedom Freedom="115"/>
+        <total_litres_of_pure_alcohol Alcohol="10.3"/>
+        <N LGBT="1033"/>
+    </country>
+    <country name="Lithuania">
+        <Freedom Freedom="122"/>
+        <total_litres_of_pure_alcohol Alcohol="12.9"/>
+        <N LGBT="821"/>
+    </country>
+    <country name="Slovakia">
+        <Freedom Freedom="108"/>
+        <total_litres_of_pure_alcohol Alcohol="11.4"/>
+        <N LGBT="1000"/>
+    </country>
+    <country name="Slovenia">
+        <Freedom Freedom="13"/>
+        <total_litres_of_pure_alcohol Alcohol="10.6"/>
+        <N LGBT="636"/>
+    </country>
+    <country name="Luxembourg">
+        <Freedom Freedom="28"/>
+        <total_litres_of_pure_alcohol Alcohol="11.4"/>
+        <N LGBT="318"/>
+    </country>
+</message> 
+
+
+ 
+
+    

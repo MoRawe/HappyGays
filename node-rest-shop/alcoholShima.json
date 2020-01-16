@@ -1,0 +1,131 @@
+{
+    "title": "An object value",
+"required": [
+"message"
+],
+"properties": {
+"message": {
+ "title": "An array of items",
+ "items": {
+     "title": "An object value",
+     "required": [
+         "country",
+         "beer_servings",
+         "spirit_servings",
+         "wine_servings",
+         "total_litres_of_pure_alcohol",
+         "continent",
+         "ID",
+         "country-alcohol",
+         "country-lgbt",
+         "country-happines"
+     ],
+     "properties": {
+         "country": {
+             "title": "A string value",
+             "default": "",
+             "pattern": "^(.*)$",
+             "examples": [
+                 "Italy"
+             ],
+             "$id": "#/properties/message/items/properties/country",
+             "type": "string"
+         },
+         "beer_servings": {
+             "title": "An integer value",
+             "default": 0,
+             "examples": [
+                 85
+             ],
+             "$id": "#/properties/message/items/properties/beer_servings",
+             "type": "integer"
+         },
+         "spirit_servings": {
+             "title": "An integer value",
+             "default": 0,
+             "examples": [
+                 42
+             ],
+             "$id": "#/properties/message/items/properties/spirit_servings",
+             "type": "integer"
+         },
+         "wine_servings": {
+             "title": "An integer value",
+             "default": 0,
+             "examples": [
+                 237
+             ],
+             "$id": "#/properties/message/items/properties/wine_servings",
+             "type": "integer"
+         },
+         "total_litres_of_pure_alcohol": {
+             "title": "A number value",
+             "default": 0,
+             "examples": [
+                 6.5
+             ],
+             "$id": "#/properties/message/items/properties/total_litres_of_pure_alcohol",
+             "type": "number"
+         },
+         "continent": {
+             "title": "A string value",
+             "default": "",
+             "pattern": "^(.*)$",
+             "examples": [
+                 "EU"
+             ],
+             "$id": "#/properties/message/items/properties/continent",
+             "type": "string"
+         },
+         "ID": {
+             "title": "An integer value",
+             "default": 0,
+             "examples": [
+                 2
+             ],
+             "$id": "#/properties/message/items/properties/ID",
+             "type": "integer"
+         },
+         "country-alcohol": {
+             "title": "A string value",
+             "default": "",
+             "pattern": "^(.*)$",
+             "examples": [
+                 "Italy"
+             ],
+             "$id": "#/properties/message/items/properties/country-alcohol",
+             "type": "string"
+         },
+         "country-lgbt": {
+             "title": "A string value",
+             "default": "",
+             "pattern": "^(.*)$",
+             "examples": [
+                 "Italy"
+             ],
+             "$id": "#/properties/message/items/properties/country-lgbt",
+             "type": "string"
+         },
+         "country-happines": {
+             "title": "A string value",
+             "default": "",
+             "pattern": "^(.*)$",
+             "examples": [
+                 "Italy"
+             ],
+             "$id": "#/properties/message/items/properties/country-happines",
+             "type": "string"
+         }
+     },
+     "$id": "#/properties/message/items",
+     "type": "object"
+ },
+ "$id": "#/properties/message",
+ "type": "array"
+}
+},
+"$id": "http://example.org/root.json#",
+"type": "object",
+"definitions": {},
+"$schema": "http://json-schema.org/draft-07/schema#"
+}
