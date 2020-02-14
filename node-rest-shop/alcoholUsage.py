@@ -11,7 +11,7 @@ response = requests.get("http://localhost:3000/products/"+idee)
 
 
 # Validetion json
-filename = "C:/xampp/htdocs/node-rest-shop/alcoholShima.json"
+filename = "alcoholShima.json"
 with open (filename, 'r') as f:
     data=f.read()
 schema = json.loads(data)
@@ -20,7 +20,7 @@ print(validate(instance=my_json, schema=schema))
     
 
 # convert it to objects
-elemnt = response.json()['message']
+elemnt = response.json()['countries']
 
 # Loop throw the objects to get information.
 beerList = []

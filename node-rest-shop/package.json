@@ -4,8 +4,8 @@
   "description": "A nod.js RESTful API Turorial Project (Builda a simple API)",
   "main": "index.js",
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "start": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "keywords": [
     "node",
@@ -16,7 +16,9 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "body-parser-xml": "^1.1.0",
     "express": "^4.17.1",
+    "js2xmlparser": "^4.0.0",
     "morgan": "^1.9.1",
     "mysql": "^2.17.1"
   },

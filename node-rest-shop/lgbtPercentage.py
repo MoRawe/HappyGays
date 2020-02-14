@@ -13,7 +13,7 @@ from jsonschema import validate
 response = requests.get("http://localhost:3000/ordrer/")
 
 # Validetion json
-filename = "C:/xampp/htdocs/node-rest-shop/shima.json"
+filename = "shima.json"
 with open (filename, 'r') as f:
     data=f.read()
 schema = json.loads(data)
@@ -21,7 +21,7 @@ my_json = response.json()
 print(validate(instance=my_json, schema=schema))
 
 # convert it to objects
-elemnt = response.json()['message']
+elemnt = response.json()['countries']
 
 # creeating the graf
 fig = px.scatter(elemnt, x="total_litres_of_pure_alcohol", y="Freedom", log_x=True,

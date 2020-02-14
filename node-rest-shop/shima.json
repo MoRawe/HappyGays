@@ -1,13 +1,12 @@
  {
-    "title": "An object value",
+    "title": "JSON schema",
+    "description": "This scheme will evaluate if the json string info valid or not",
     "required": [
-        "message"
+        "countries"
     ],
     "properties": {
-        "message": {
-            "title": "An array of items",
+        "countries": {
             "items": {
-                "title": "An object value",
                 "required": [
                     "Country_region",
                     "Freedom",
@@ -16,52 +15,31 @@
                 ],
                 "properties": {
                     "Country_region": {
-                        "title": "A string value",
-                        "default": "",
-                        "pattern": "^(.*)$",
                         "examples": [
                             "Italy"
                         ],
-                        "$id": "#/properties/message/items/properties/Country_region",
                         "type": "string"
                     },
                     "Freedom": {
-                        "title": "An integer value",
-                        "default": 0,
                         "examples": [
                             132
                         ],
-                        "$id": "#/properties/message/items/properties/Freedom",
                         "type": "integer"
                     },
                     "total_litres_of_pure_alcohol": {
-                        "title": "A number value",
-                        "default": 0,
                         "examples": [
                             6.5
                         ],
-                        "$id": "#/properties/message/items/properties/total_litres_of_pure_alcohol",
                         "type": "number"
                     },
                     "N": {
-                        "title": "An integer value",
-                        "default": 0,
                         "examples": [
                             13255
                         ],
-                        "$id": "#/properties/message/items/properties/N",
                         "type": "integer"
                     }
-                },
-                "$id": "#/properties/message/items",
-                "type": "object"
-            },
-            "$id": "#/properties/message",
-            "type": "array"
+                }
+            }
         }
-    },
-    "$id": "http://example.org/root.json#",
-    "type": "object",
-    "definitions": {},
-    "$schema": "http://json-schema.org/draft-07/schema#"
+    }
 }

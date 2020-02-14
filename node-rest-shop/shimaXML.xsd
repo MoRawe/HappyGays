@@ -1,39 +1,15 @@
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="message">
+  <xs:element name="countries">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="country" maxOccurs="unbounded" minOccurs="0">
+        <xs:element name="countries" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="Freedom">
-                <xs:complexType>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:string">
-                      <xs:attribute type="xs:short" name="Freedom" use="optional"/>
-                    </xs:extension>
-                  </xs:simpleContent>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="total_litres_of_pure_alcohol">
-                <xs:complexType>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:string">
-                      <xs:attribute type="xs:float" name="Alcohol" use="optional"/>
-                    </xs:extension>
-                  </xs:simpleContent>
-                </xs:complexType>
-              </xs:element>
-              <xs:element name="N">
-                <xs:complexType>
-                  <xs:simpleContent>
-                    <xs:extension base="xs:string">
-                      <xs:attribute type="xs:short" name="LGBT" use="optional"/>
-                    </xs:extension>
-                  </xs:simpleContent>
-                </xs:complexType>
-              </xs:element>
+              <xs:element name="Country_region" type="xs:string"/>
+              <xs:element name="Freedom" type="xs:short"/>
+              <xs:element name="total_litres_of_pure_alcohol" type="xs:float"/>
+              <xs:element name="N" type="xs:short"/>
             </xs:sequence>
-            <xs:attribute type="xs:string" name="name" use="optional"/>
           </xs:complexType>
         </xs:element>
       </xs:sequence>
